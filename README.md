@@ -13,6 +13,7 @@
     * This may require adjusting the current state colors (preferably semantically, failed and succeeded are obvious, but blocked is a warning state, while processing is just info since we don't know the outcome)
 * The individual arch badges link to the build log/display more information when pressed (a'la the current unresolvable in the monitor)
 * Link to the code changes from the header ([implementation clue](https://stackoverflow.com/questions/67281841/bootstrap-link-in-accordion-header-stoppropagation-not-working))
+* The arches in the repositories should be aligned using css grid, such that on higher viewports they display as a table with architectures that don't exist in a certain repo are empty cells (for easy comparison between repository state), but on low viewports they all display as a vertical list so that it fits well without the need to scroll
 
 ## How to use this mockup
 
