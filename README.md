@@ -28,3 +28,5 @@ If you want to serve the site locally run:
 bundler install
 bundler exec jekyll serve
 ```
+
+Or simply run `docker-compose up` and check the mockup in `localhost:4000`.
